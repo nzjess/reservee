@@ -1,0 +1,40 @@
+{
+  "name": "reservee",
+  "version": "1.0.0",
+  "description": "Simple Active Reservation System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node dev-server",
+    "deploy": "NODE_ENV=production webpack -p --config webpack.dist.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nzjess/reservee.git"
+  },
+  "keywords": [
+    "Reservation"
+  ],
+  "author": "Jesse McLaughlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nzjess/reservee/issues"
+  },
+  "homepage": "https://github.com/nzjess/reservee#readme",
+  "dependencies": {
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "node-sass": "^3.4.2",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0"
+  }
+}
